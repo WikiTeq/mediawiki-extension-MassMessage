@@ -10,6 +10,7 @@ use ChangeTags;
 use DeferredUpdates;
 use DerivativeRequest;
 use ExtensionRegistry;
+use Hooks;
 use Job;
 use LqtDispatch;
 use ManualLogEntry;
@@ -204,6 +205,13 @@ class MassMessageJob extends Job {
 				$this->logLocalSkip( 'skipnouser' );
 				return true;
 			}
+		}
+
+		// Allow extensions to execute code before this message is sent, and potentially implement
+		// their own messaging system.
+		// Also, if the page is using a different discussion system, handle it specially.
+		if ( !Hooks::run( 'MassMessageJobBeforeMessageSent', array( $this ) ) ) {
+			return true;
 		}
 
 		$stripTildes = self::STRIP_TILDES;
