@@ -4,6 +4,7 @@ use MediaWiki\MassMessage\Content\MassMessageListDiffEngine;
 
 /**
  * @covers \MediaWiki\MassMessage\Content\MassMessageListDiffEngine
+ * @group extension-MassMessage
  */
 class MassMessageListDiffEngineTest extends MediaWikiTestCase {
 

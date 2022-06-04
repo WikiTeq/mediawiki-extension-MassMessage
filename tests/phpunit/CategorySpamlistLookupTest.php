@@ -8,6 +8,7 @@ use WikitextContent;
 
 /**
  * Tests for Category Spamlist function related to target processing
+ * @group extension-MassMessage
  */
 class CategorySpamlistLookupTest extends MassMessageTestCase {
 

@@ -13,6 +13,7 @@ use Title;
  * @group API
  * @group Database
  * @group medium
+ * @group extension-MassMessage
  */
 class MassMessageListContentHandlerTest extends MassMessageApiTestCase {
 

@@ -12,6 +12,7 @@ use WikiPage;
  *
  * @covers \MediaWiki\MassMessage\ListContentSpamlistLookup
  * @covers \MediaWiki\MassMessage\SpamlistLookup
+ * @group extension-MassMessage
  */
 class ListContentSpamlistLookupTest extends MassMessageTestCase {
 

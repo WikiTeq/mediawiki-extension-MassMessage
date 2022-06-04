@@ -8,6 +8,7 @@ use WikiMap;
 
 /**
  * Tests for Parser functions related to target processing
+ * @group extension-MassMessage
  */
 class ParserFunctionSpamlistLookupTest extends MassMessageTestCase {
 

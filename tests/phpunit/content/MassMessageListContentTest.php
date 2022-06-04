@@ -4,6 +4,9 @@ namespace MediaWiki\MassMessage;
 
 use MediaWiki\MassMessage\Content\MassMessageListContent;
 
+/**
+ * @group extension-MassMessage
+ */
 class MassMessageListContentTest extends MassMessageTestCase {
 
 	public static function provideIsValid() {

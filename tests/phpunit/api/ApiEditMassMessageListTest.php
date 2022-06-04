@@ -11,6 +11,7 @@ use WikiPage;
  * @group API
  * @group Database
  * @group medium
+ * @group extension-MassMessage
  * @covers \MediaWiki\MassMessage\Api\ApiEditMassMessageList
  */
 class ApiEditMassMessageListTest extends MassMessageApiTestCase {

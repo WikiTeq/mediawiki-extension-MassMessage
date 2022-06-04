@@ -7,6 +7,7 @@ use SiteConfiguration;
 
 /**
  * Abstract test case containing setup code and common functions
+ * @group extension-MassMessage
  */
 abstract class MassMessageApiTestCase extends ApiTestCase {
 

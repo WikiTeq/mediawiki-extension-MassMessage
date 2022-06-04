@@ -4,6 +4,9 @@ namespace MediaWiki\MassMessage;
 
 use Title;
 
+/**
+ * @group extension-MassMessage
+ */
 class UrlHelperTest extends MassMessageTestCase {
 
 	/**

@@ -2,6 +2,9 @@
 
 namespace MediaWiki\MassMessage;
 
+/**
+ * @group extension-MassMessage
+ */
 class DatabaseLookupTest extends MassMessageTestCase {
 
 	public static function provideGetDBName() {

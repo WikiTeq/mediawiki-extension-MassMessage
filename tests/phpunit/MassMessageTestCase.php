@@ -12,6 +12,7 @@ use WikiPage;
 
 /**
  * Abstract test case containing setup code and common functions
+ * @group extension-MassMessage
  */
 abstract class MassMessageTestCase extends MediaWikiTestCase {
 

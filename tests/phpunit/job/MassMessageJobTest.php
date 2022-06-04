@@ -16,6 +16,9 @@ use User;
 use WikiMap;
 use WikiPage;
 
+/**
+ * @group extension-MassMessage
+ */
 class MassMessageJobTest extends MassMessageTestCase {
 
 	/**

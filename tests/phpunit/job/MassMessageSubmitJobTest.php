@@ -6,6 +6,9 @@ use MediaWiki\MassMessage\Job\MassMessageJob;
 use MediaWiki\MassMessage\Job\MassMessageSubmitJob;
 use MediaWikiTestCase;
 
+/**
+ * @group extension-MassMessage
+ */
 class MassMessageSubmitJobTest extends MediaWikiTestCase {
 
 	/**
