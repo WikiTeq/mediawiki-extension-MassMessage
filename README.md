@@ -1,5 +1,7 @@
 # MassMessage
 
+[![CI](https://github.com/WikiTeq/mediawiki-extension-MassMessage/actions/workflows/mediawiki.yml/badge.svg)](https://github.com/WikiTeq/mediawiki-extension-MassMessage/actions/workflows/mediawiki.yml)
+
 MassMessage is a [MediaWiki](https://www.mediawiki.org/) extension that lets you easily send a talk page message to a large number of users at once. The extension also works over "wikifarm" setups.
 
 ## Configuration
