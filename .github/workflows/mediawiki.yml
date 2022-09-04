@@ -17,10 +17,10 @@ jobs:
             php: 7.4
           - mw: 'REL1_36'
             php: 7.4
-          - mw: 'REL1_37'
-            php: 7.4
-          - mw: 'master'
-            php: 7.4
+#          - mw: 'REL1_37'
+#            php: 7.4
+#          - mw: 'master'
+#            php: 7.4
     runs-on: ubuntu-latest
     steps:
       # check out the repository
